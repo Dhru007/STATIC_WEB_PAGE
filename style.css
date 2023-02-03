@@ -1,0 +1,103 @@
+body{
+    background-image: url(https://i.ibb.co/HtfMdJS/bg.webp);
+    margin: 0;
+    height: 130vh;
+}
+*{
+    color: antiquewhite;
+}
+header{
+    padding: 20px;
+    color: rgb(212, 216, 220);
+    position: sticky;
+    top: 0;
+    }
+    .logobox{
+        display:inline-block;
+        width: 200px;
+        font-size: x-large;
+        font-weight: 600;
+        word-spacing: 2px;
+    }
+    .navbar{
+         width: 600px;
+        position:absolute;
+        right:20px;
+        display: inline-block;
+        transition:5s;
+    }
+    .navbar>a{
+        color: aliceblue;
+        margin: 20px;
+        text-decoration: wavy;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #home{
+        color: brown;
+    }
+    .navbar>a:hover{
+        color: aquamarine;
+    }
+    #home:hover{
+        color: aquamarine;
+    }
+    .heading{ 
+        color: crimson;
+        font-size: 60px;
+        font-weight: 600;
+        width: 260px;
+        margin: 20px;
+        position: relative;
+        top: 100px;
+        left: 60px;
+    }
+    .heading+h3{
+        color:whitesmoke;
+        font-size: 40px;
+        font-weight: 600;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 260px;
+        margin: 20px;
+        position: relative;
+        top: 80px;
+        left: 80px;
+    }
+    .heading+h3+p{
+        color: whitesmoke;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        top: 90px;
+        width: 400px;
+        left: 60px;
+        word-spacing: 2px;
+    }
+    .btn{
+        width: 220px;
+        padding: 20px;
+        border: none;
+        background-color: salmon;
+        color:whitesmoke;
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        top: 90px;
+        left: 80px;   
+        cursor: pointer;     
+        transition: 0.5s;
+    }
+    .btn:hover{
+        background-color: rgb(22, 3, 7);
+        color:rgb(192, 18, 18);
+    }
+    .btn+footer{
+        color: burlywood;
+        position: relative;
+        top: 260px;       
+    }
+    @media all and (max-width:1000px) {
+        body{
+            background-image: none;        }
+
+        
+    }
+
